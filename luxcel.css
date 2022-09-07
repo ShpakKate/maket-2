@@ -198,5 +198,5 @@ h4 {
 
 .info a {
     color: beige;
-    text-decoration-line: none;
+    text-decoration-line:overline;
 }
