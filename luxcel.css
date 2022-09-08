@@ -35,15 +35,15 @@ a:first-of-type {
     border-color: rgb(127, 184, 211);
 }
 
-.logo, .Top-Nav  {
+.logo, .top-Nav  {
     padding: 1rem;
 }
 
-.Top-Nav a:hover, .nav a:hover {
+.top-nav a:hover, .nav a:hover {
     text-decoration-line: none;
 }
 
-.Top-Titel {
+.top-titel {
     margin: 0;
     padding: auto 2rem;
     height: 6.2rem;
@@ -54,7 +54,7 @@ a:first-of-type {
   
 }
 
-.Top-Titel h2 {
+.top-titel h2 {
     margin: 0;
     padding: 2rem 0 0 5rem;
 }
