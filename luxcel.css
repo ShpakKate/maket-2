@@ -91,7 +91,7 @@ a:first-of-type {
 }
 
 .nav ul li {
-    padding: auto 0.7rem;
+    padding: 0 0.7rem;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
