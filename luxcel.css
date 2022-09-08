@@ -35,15 +35,15 @@ a:first-of-type {
     border-color: rgb(127, 184, 211);
 }
 
-.logo, .TopNav  {
+.logo, .Top-Nav  {
     padding: 1rem;
 }
 
-.TopNav a:hover, .nav a:hover {
+.Top-Nav a:hover, .nav a:hover {
     text-decoration-line: none;
 }
 
-.TopTitel {
+.Top-Titel {
     margin: 0;
     padding: auto 2rem;
     height: 6.2rem;
@@ -54,23 +54,33 @@ a:first-of-type {
   
 }
 
-.TopTitel h2 {
+.Top-Titel h2 {
     margin: 0;
     padding: 2rem 0 0 5rem;
 }
 
-.header .nav {
-    padding-left: 9rem;
-    padding-right: 3.5rem;
-    height: 2.2rem;
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-image: url(images/nav.png);
+    height: 2.2rem;
+}
+
+.left-nav {
+    flex: 3;
+}
+
+.header .nav {
+    flex: 9;
     display: flex; 
     align-items: stretch;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .header .nav ul {
     margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -81,14 +91,14 @@ a:first-of-type {
 }
 
 .nav ul li {
-    padding: 0 0.7rem;
+    padding: auto 0.7rem;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
 .nav ul li a {
-    color: rgb(50, 84, 107);
+    color: rgb(39, 64, 80);
     text-decoration-line: none;
 }
 
@@ -107,13 +117,13 @@ a:first-of-type {
 
 .aside {
     flex: 3;
-    background-color: rgb(221, 221, 250);
+    background-color: #dae4ff;
 }
 
 .aside h3 {
     margin: 0;
     padding: 0.3rem 1.3rem;
-    background-color: rgb(110, 111, 185);
+    background-color: #6a76b5;
     font-size: large;
     color: beige;
     text-transform: uppercase;
@@ -141,6 +151,7 @@ a:first-of-type {
 
 .tree a {
     margin: 0;
+    cursor: default;
 }
  
 .tree a:last-child {
